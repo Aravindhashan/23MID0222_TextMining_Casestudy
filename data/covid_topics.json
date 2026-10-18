@@ -1,0 +1,19 @@
+[
+  {
+    "era":"pre_covid",
+    "reviews":41387,
+    "recommend_rate":0.5338391282,
+    "mean_overall_rating":6.0397525303,
+    "mean_vader":0.2805960108,
+    "topic_0":0.0756,
+    "topic_1":0.0587,
+    "topic_2":0.1344,
+    "topic_3":0.0962,
+    "topic_4":0.1458,
+    "topic_5":0.1001,
+    "topic_6":0.1068,
+    "topic_7":0.0908,
+    "topic_8":0.0928,
+    "topic_9":0.0987
+  }
+]

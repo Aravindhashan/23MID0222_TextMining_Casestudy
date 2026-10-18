@@ -1,0 +1,290 @@
+{
+  "available": true,
+  "samples": [
+    {
+      "review_index": 6591,
+      "true_label": 1,
+      "predicted_label": 1,
+      "label_explained": 1,
+      "words": [
+        {
+          "word": "sector",
+          "weight": 0.1464
+        },
+        {
+          "word": "disappoint",
+          "weight": -0.1354
+        },
+        {
+          "word": "mediocre",
+          "weight": -0.1231
+        },
+        {
+          "word": "alaska",
+          "weight": 0.1062
+        },
+        {
+          "word": "efficient",
+          "weight": 0.0856
+        },
+        {
+          "word": "promptly",
+          "weight": 0.0699
+        },
+        {
+          "word": "rat",
+          "weight": -0.0673
+        },
+        {
+          "word": "lax",
+          "weight": 0.0668
+        },
+        {
+          "word": "consist",
+          "weight": -0.0632
+        },
+        {
+          "word": "serve",
+          "weight": -0.0515
+        },
+        {
+          "word": "especially",
+          "weight": 0.0501
+        },
+        {
+          "word": "first",
+          "weight": 0.031
+        }
+      ],
+      "text_excerpt": "LAX-SEA-LAX-GDL in First Class. Alaska served the same meal consisting of a Chicken Sandwich and orzo pasta salad on all sectors. I was especially disappointed on the International sector of LAX-GDL. Alaska Airlines was on time for all sectors baggage was delivered promptly and the inflight cabin staff were efficient. They have to learn to vary their menu for First Class Passengers especially on I"
+    },
+    {
+      "review_index": 35155,
+      "true_label": 1,
+      "predicted_label": 1,
+      "label_explained": 1,
+      "words": [
+        {
+          "word": "nice",
+          "weight": 0.0734
+        },
+        {
+          "word": "comfortable",
+          "weight": 0.0683
+        },
+        {
+          "word": "old",
+          "weight": -0.0662
+        },
+        {
+          "word": "attentive",
+          "weight": 0.0635
+        },
+        {
+          "word": "expectation",
+          "weight": 0.0485
+        },
+        {
+          "word": "best",
+          "weight": 0.0466
+        },
+        {
+          "word": "super",
+          "weight": 0.0423
+        },
+        {
+          "word": "tire",
+          "weight": -0.0394
+        },
+        {
+          "word": "plane",
+          "weight": -0.0335
+        },
+        {
+          "word": "flat",
+          "weight": 0.026
+        },
+        {
+          "word": "air",
+          "weight": -0.0211
+        },
+        {
+          "word": "angle",
+          "weight": -0.0202
+        }
+      ],
+      "text_excerpt": "Flew BKK-AKL on older 777-200. Expected a tired old plane and variable service: hurrah for low expectations. Seat was angle-flat but surprisingly comfortable. Crew were super-attentive and nice. Food was some of the best I've had in the air."
+    },
+    {
+      "review_index": 26461,
+      "true_label": 0,
+      "predicted_label": 0,
+      "label_explained": 0,
+      "words": [
+        {
+          "word": "old",
+          "weight": 0.1177
+        },
+        {
+          "word": "comfortable",
+          "weight": -0.0713
+        },
+        {
+          "word": "hour",
+          "weight": 0.0692
+        },
+        {
+          "word": "wear",
+          "weight": 0.057
+        },
+        {
+          "word": "noisy",
+          "weight": 0.0497
+        },
+        {
+          "word": "wait",
+          "weight": 0.0485
+        },
+        {
+          "word": "average",
+          "weight": 0.0476
+        },
+        {
+          "word": "row",
+          "weight": -0.0431
+        },
+        {
+          "word": "roomy",
+          "weight": -0.0402
+        },
+        {
+          "word": "lot",
+          "weight": -0.0367
+        },
+        {
+          "word": "piece",
+          "weight": 0.0296
+        },
+        {
+          "word": "not_attentive",
+          "weight": 0.0224
+        }
+      ],
+      "text_excerpt": "Paris to Newark. Roomy seats that recline allowing you to get a comfortable rest. Lots of space between rows. You can have up to 3 pieces of luggage up to 23 kg. However worn out seats and old noisy plane. Flight attendants weren't very attentive. There was no duty free on board. They give you an old handheld screen with a limited choice of films. The meal took a very long time with a 1 hour wait "
+    },
+    {
+      "review_index": 34378,
+      "true_label": 0,
+      "predicted_label": 0,
+      "label_explained": 0,
+      "words": [
+        {
+          "word": "plane",
+          "weight": 0.0733
+        },
+        {
+          "word": "not_trouble",
+          "weight": -0.0732
+        },
+        {
+          "word": "emergency",
+          "weight": 0.063
+        },
+        {
+          "word": "machine",
+          "weight": -0.0627
+        },
+        {
+          "word": "time",
+          "weight": -0.0567
+        },
+        {
+          "word": "almaty",
+          "weight": -0.0562
+        },
+        {
+          "word": "not_one",
+          "weight": 0.049
+        },
+        {
+          "word": "runway",
+          "weight": 0.0479
+        },
+        {
+          "word": "not_probably",
+          "weight": 0.0384
+        },
+        {
+          "word": "scan",
+          "weight": -0.0345
+        },
+        {
+          "word": "baggage",
+          "weight": 0.0334
+        },
+        {
+          "word": "hold",
+          "weight": -0.0316
+        }
+      ],
+      "text_excerpt": "Almaty to Dushanbe. My hand baggage was scanned by 4 x-ray machines and went through with no trouble probably because no one was manning the monitors. Boarding time was a stampede across the runway to reach the plane. Rather than use the hold the baggage was then loaded into the plane and piled by the emergency exit door."
+    },
+    {
+      "review_index": 7541,
+      "true_label": 1,
+      "predicted_label": 0,
+      "label_explained": 0,
+      "words": [
+        {
+          "word": "uncomfortable",
+          "weight": 0.1549
+        },
+        {
+          "word": "not_even",
+          "weight": 0.0892
+        },
+        {
+          "word": "time",
+          "weight": -0.0864
+        },
+        {
+          "word": "new",
+          "weight": -0.0729
+        },
+        {
+          "word": "worse",
+          "weight": 0.0712
+        },
+        {
+          "word": "not_issue",
+          "weight": -0.0667
+        },
+        {
+          "word": "delay",
+          "weight": 0.0601
+        },
+        {
+          "word": "slight",
+          "weight": -0.058
+        },
+        {
+          "word": "st",
+          "weight": -0.0414
+        },
+        {
+          "word": "tray",
+          "weight": 0.0376
+        },
+        {
+          "word": "due",
+          "weight": -0.0276
+        },
+        {
+          "word": "table",
+          "weight": 0.0256
+        }
+      ],
+      "text_excerpt": "Feb 28 return Mar 3 2014 Springfield MO to Clearwater/St Petersburg FL. Outward leg on an Allegiant A320. Brand new seats but seats very uncomfortable and small seat pitch. Very small tray table not even large enough to hold a laptop and a beverage at the same time. These seats are perhaps the worse seats I have encountered. Slight delay due to computer errors pilots had to reboot the computers. T"
+    }
+  ]
+}

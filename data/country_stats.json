@@ -1,0 +1,86 @@
+[
+  {
+    "country": "United Kingdom",
+    "reviews": 9969,
+    "recommend_rate": 0.5659544588223493,
+    "overall_rating": 6.370615034168565,
+    "vader_mean": 0.28811392316180157
+  },
+  {
+    "country": "United States",
+    "reviews": 8504,
+    "recommend_rate": 0.4206255879586077,
+    "overall_rating": 5.234415673379915,
+    "vader_mean": 0.13138550094073378
+  },
+  {
+    "country": "Australia",
+    "reviews": 5060,
+    "recommend_rate": 0.6274703557312253,
+    "overall_rating": 6.5473259762308995,
+    "vader_mean": 0.39056140316205534
+  },
+  {
+    "country": "Canada",
+    "reviews": 3302,
+    "recommend_rate": 0.3927922471229558,
+    "overall_rating": 4.838196286472148,
+    "vader_mean": 0.09101577831617201
+  },
+  {
+    "country": "Germany",
+    "reviews": 1117,
+    "recommend_rate": 0.6741271262309758,
+    "overall_rating": 6.466976744186047,
+    "vader_mean": 0.39969659803043867
+  },
+  {
+    "country": "Singapore",
+    "reviews": 661,
+    "recommend_rate": 0.6883509833585476,
+    "overall_rating": 6.7194928684627575,
+    "vader_mean": 0.39333993948562784
+  },
+  {
+    "country": "New Zealand",
+    "reviews": 638,
+    "recommend_rate": 0.5768025078369906,
+    "overall_rating": 6.360876897133221,
+    "vader_mean": 0.36288354231974923
+  },
+  {
+    "country": "Netherlands",
+    "reviews": 547,
+    "recommend_rate": 0.6142595978062158,
+    "overall_rating": 6.394117647058824,
+    "vader_mean": 0.3075067641681901
+  },
+  {
+    "country": "India",
+    "reviews": 543,
+    "recommend_rate": 0.6169429097605893,
+    "overall_rating": 6.370588235294117,
+    "vader_mean": 0.3345598526703499
+  },
+  {
+    "country": "France",
+    "reviews": 517,
+    "recommend_rate": 0.5996131528046421,
+    "overall_rating": 6.103305785123967,
+    "vader_mean": 0.2896098646034816
+  },
+  {
+    "country": "Switzerland",
+    "reviews": 454,
+    "recommend_rate": 0.6740088105726872,
+    "overall_rating": 6.724299065420561,
+    "vader_mean": 0.4056711453744493
+  },
+  {
+    "country": "Thailand",
+    "reviews": 426,
+    "recommend_rate": 0.6549295774647887,
+    "overall_rating": 6.558024691358025,
+    "vader_mean": 0.3423422535211268
+  }
+]

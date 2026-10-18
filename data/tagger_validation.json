@@ -1,0 +1,100 @@
+{
+  "seat_comfort": {
+    "aspect_label": "Seat comfort",
+    "rating_col": "seat_comfort_rating",
+    "tagger_A": {
+      "agreement_pct": 41.94,
+      "compared_reviews": 26298,
+      "agreed": 11029
+    },
+    "tagger_B": {
+      "agreement_pct": 42.78,
+      "compared_reviews": 26298,
+      "agreed": 11250
+    }
+  },
+  "cabin_staff": {
+    "aspect_label": "Cabin staff",
+    "rating_col": "cabin_staff_rating",
+    "tagger_A": {
+      "agreement_pct": 60.26,
+      "compared_reviews": 28758,
+      "agreed": 17331
+    },
+    "tagger_B": {
+      "agreement_pct": 62.56,
+      "compared_reviews": 28758,
+      "agreed": 17992
+    }
+  },
+  "food_beverages": {
+    "aspect_label": "Food & beverages",
+    "rating_col": "food_beverages_rating",
+    "tagger_A": {
+      "agreement_pct": 41.54,
+      "compared_reviews": 26648,
+      "agreed": 11069
+    },
+    "tagger_B": {
+      "agreement_pct": 42.0,
+      "compared_reviews": 26648,
+      "agreed": 11192
+    }
+  },
+  "inflight_entertainment": {
+    "aspect_label": "Inflight entertainment",
+    "rating_col": "inflight_entertainment_rating",
+    "tagger_A": {
+      "agreement_pct": 19.86,
+      "compared_reviews": 26016,
+      "agreed": 5166
+    },
+    "tagger_B": {
+      "agreement_pct": 20.2,
+      "compared_reviews": 26016,
+      "agreed": 5255
+    }
+  },
+  "ground_service": {
+    "aspect_label": "Ground service",
+    "rating_col": "ground_service_rating",
+    "tagger_A": {
+      "agreement_pct": 29.83,
+      "compared_reviews": 1894,
+      "agreed": 565
+    },
+    "tagger_B": {
+      "agreement_pct": 30.15,
+      "compared_reviews": 1894,
+      "agreed": 571
+    }
+  },
+  "wifi_connectivity": {
+    "aspect_label": "WiFi connectivity",
+    "rating_col": "wifi_connectivity_rating",
+    "tagger_A": {
+      "agreement_pct": 7.29,
+      "compared_reviews": 494,
+      "agreed": 36
+    },
+    "tagger_B": {
+      "agreement_pct": 7.29,
+      "compared_reviews": 494,
+      "agreed": 36
+    }
+  },
+  "value_money": {
+    "aspect_label": "Value for money",
+    "rating_col": "value_money_rating",
+    "tagger_A": {
+      "agreement_pct": 17.67,
+      "compared_reviews": 34388,
+      "agreed": 6078
+    },
+    "tagger_B": {
+      "agreement_pct": 17.85,
+      "compared_reviews": 34388,
+      "agreed": 6137
+    }
+  }
+}

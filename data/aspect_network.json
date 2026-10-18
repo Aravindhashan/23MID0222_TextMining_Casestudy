@@ -1,0 +1,260 @@
+{
+  "nodes": [
+    {
+      "id": "seat_comfort",
+      "label": "Seat comfort",
+      "mentions": 24565,
+      "sentiment": 0.365
+    },
+    {
+      "id": "cabin_staff",
+      "label": "Cabin staff",
+      "mentions": 33104,
+      "sentiment": 0.345
+    },
+    {
+      "id": "food_beverages",
+      "label": "Food & beverages",
+      "mentions": 24932,
+      "sentiment": 0.418
+    },
+    {
+      "id": "inflight_entertainment",
+      "label": "Inflight entertainment",
+      "mentions": 11784,
+      "sentiment": 0.435
+    },
+    {
+      "id": "ground_service",
+      "label": "Ground service",
+      "mentions": 16954,
+      "sentiment": 0.217
+    },
+    {
+      "id": "wifi_connectivity",
+      "label": "WiFi connectivity",
+      "mentions": 2704,
+      "sentiment": 0.199
+    },
+    {
+      "id": "value_money",
+      "label": "Value for money",
+      "mentions": 11155,
+      "sentiment": 0.362
+    }
+  ],
+  "edges": [
+    {
+      "source": "cabin_staff",
+      "target": "food_beverages",
+      "count": 21549
+    },
+    {
+      "source": "cabin_staff",
+      "target": "seat_comfort",
+      "count": 20324
+    },
+    {
+      "source": "food_beverages",
+      "target": "seat_comfort",
+      "count": 16733
+    },
+    {
+      "source": "cabin_staff",
+      "target": "ground_service",
+      "count": 13797
+    },
+    {
+      "source": "cabin_staff",
+      "target": "inflight_entertainment",
+      "count": 10070
+    },
+    {
+      "source": "ground_service",
+      "target": "seat_comfort",
+      "count": 9917
+    },
+    {
+      "source": "food_beverages",
+      "target": "ground_service",
+      "count": 9876
+    },
+    {
+      "source": "food_beverages",
+      "target": "inflight_entertainment",
+      "count": 9482
+    },
+    {
+      "source": "cabin_staff",
+      "target": "value_money",
+      "count": 8950
+    },
+    {
+      "source": "inflight_entertainment",
+      "target": "seat_comfort",
+      "count": 8683
+    },
+    {
+      "source": "seat_comfort",
+      "target": "value_money",
+      "count": 7241
+    },
+    {
+      "source": "food_beverages",
+      "target": "value_money",
+      "count": 7145
+    },
+    {
+      "source": "ground_service",
+      "target": "value_money",
+      "count": 4802
+    },
+    {
+      "source": "ground_service",
+      "target": "inflight_entertainment",
+      "count": 4261
+    },
+    {
+      "source": "inflight_entertainment",
+      "target": "value_money",
+      "count": 3345
+    },
+    {
+      "source": "cabin_staff",
+      "target": "wifi_connectivity",
+      "count": 2169
+    },
+    {
+      "source": "ground_service",
+      "target": "wifi_connectivity",
+      "count": 1647
+    },
+    {
+      "source": "food_beverages",
+      "target": "wifi_connectivity",
+      "count": 1575
+    },
+    {
+      "source": "seat_comfort",
+      "target": "wifi_connectivity",
+      "count": 1559
+    },
+    {
+      "source": "inflight_entertainment",
+      "target": "wifi_connectivity",
+      "count": 1061
+    },
+    {
+      "source": "value_money",
+      "target": "wifi_connectivity",
+      "count": 763
+    }
+  ],
+  "top_edges": [
+    {
+      "source": "cabin_staff",
+      "target": "food_beverages",
+      "count": 21549
+    },
+    {
+      "source": "cabin_staff",
+      "target": "seat_comfort",
+      "count": 20324
+    },
+    {
+      "source": "food_beverages",
+      "target": "seat_comfort",
+      "count": 16733
+    },
+    {
+      "source": "cabin_staff",
+      "target": "ground_service",
+      "count": 13797
+    },
+    {
+      "source": "cabin_staff",
+      "target": "inflight_entertainment",
+      "count": 10070
+    },
+    {
+      "source": "ground_service",
+      "target": "seat_comfort",
+      "count": 9917
+    },
+    {
+      "source": "food_beverages",
+      "target": "ground_service",
+      "count": 9876
+    },
+    {
+      "source": "food_beverages",
+      "target": "inflight_entertainment",
+      "count": 9482
+    },
+    {
+      "source": "cabin_staff",
+      "target": "value_money",
+      "count": 8950
+    },
+    {
+      "source": "inflight_entertainment",
+      "target": "seat_comfort",
+      "count": 8683
+    },
+    {
+      "source": "seat_comfort",
+      "target": "value_money",
+      "count": 7241
+    },
+    {
+      "source": "food_beverages",
+      "target": "value_money",
+      "count": 7145
+    },
+    {
+      "source": "ground_service",
+      "target": "value_money",
+      "count": 4802
+    },
+    {
+      "source": "ground_service",
+      "target": "inflight_entertainment",
+      "count": 4261
+    },
+    {
+      "source": "inflight_entertainment",
+      "target": "value_money",
+      "count": 3345
+    },
+    {
+      "source": "cabin_staff",
+      "target": "wifi_connectivity",
+      "count": 2169
+    },
+    {
+      "source": "ground_service",
+      "target": "wifi_connectivity",
+      "count": 1647
+    },
+    {
+      "source": "food_beverages",
+      "target": "wifi_connectivity",
+      "count": 1575
+    },
+    {
+      "source": "seat_comfort",
+      "target": "wifi_connectivity",
+      "count": 1559
+    },
+    {
+      "source": "inflight_entertainment",
+      "target": "wifi_connectivity",
+      "count": 1061
+    },
+    {
+      "source": "value_money",
+      "target": "wifi_connectivity",
+      "count": 763
+    }
+  ]
+}

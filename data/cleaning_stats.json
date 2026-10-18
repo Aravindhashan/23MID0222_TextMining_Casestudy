@@ -1,0 +1,18 @@
+{
+  "rows_in": 41396,
+  "steps": {
+    "rating_placeholders_to_nan": 120024,
+    "recommended_value_counts": {
+      "1": 22098,
+      "0": 19298
+    },
+    "recommended_unmapped": 0,
+    "date_parse_failures": 0,
+    "implausible_dates_to_nat": 1,
+    "dropped_empty_content": 0,
+    "dropped_duplicates": 8,
+    "dropped_no_tokens_after_processing": 0
+  },
+  "rows_out": 41388,
+  "rows_dropped_total": 8
+}

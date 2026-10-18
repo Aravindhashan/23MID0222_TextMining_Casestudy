@@ -1,0 +1,285 @@
+{
+  "results": {
+    "MultinomialNB": {
+      "model": "MultinomialNB",
+      "cv_accuracy_mean": 0.8571325635565572,
+      "cv_accuracy_std": 0.0027501499112216007,
+      "cv_f1_mean": 0.8690333419045503,
+      "cv_f1_std": 0.0025196490231884456,
+      "cv_roc_auc_mean": 0.9249469632427598,
+      "cv_roc_auc_std": 0.0022294318828794345,
+      "test_accuracy": 0.8597487315776757,
+      "test_precision": 0.8532090199479618,
+      "test_recall": 0.8904729576827336,
+      "test_f1": 0.8714428081054146,
+      "test_roc_auc": 0.9266961654252664,
+      "confusion_matrix": [
+        [
+          3182,
+          677
+        ],
+        [
+          484,
+          3935
+        ]
+      ],
+      "tn": 3182,
+      "fp": 677,
+      "fn": 484,
+      "tp": 3935
+    },
+    "LogisticRegression": {
+      "model": "LogisticRegression",
+      "cv_accuracy_mean": 0.8877935938998853,
+      "cv_accuracy_std": 0.0042590565530548265,
+      "cv_f1_mean": 0.895776239116271,
+      "cv_f1_std": 0.003956768512961273,
+      "cv_roc_auc_mean": 0.9482989911168482,
+      "cv_roc_auc_std": 0.0024764832534901297,
+      "test_accuracy": 0.8916404928726746,
+      "test_precision": 0.8911594846734785,
+      "test_recall": 0.907897714415026,
+      "test_f1": 0.8994507342226208,
+      "test_roc_auc": 0.9498115015017077,
+      "confusion_matrix": [
+        [
+          3369,
+          490
+        ],
+        [
+          407,
+          4012
+        ]
+      ],
+      "tn": 3369,
+      "fp": 490,
+      "fn": 407,
+      "tp": 4012
+    },
+    "LinearSVC": {
+      "model": "LinearSVC",
+      "cv_accuracy_mean": 0.8800860650566081,
+      "cv_accuracy_std": 0.004635954908534787,
+      "cv_f1_mean": 0.88923822915682,
+      "cv_f1_std": 0.004220809950010093,
+      "cv_roc_auc_mean": 0.9440792033352006,
+      "cv_roc_auc_std": 0.002756203875216167,
+      "test_accuracy": 0.8818555206571635,
+      "test_precision": 0.8824183151811513,
+      "test_recall": 0.8983933016519574,
+      "test_f1": 0.8903341556402781,
+      "test_roc_auc": 0.9459193823744332,
+      "confusion_matrix": [
+        [
+          3330,
+          529
+        ],
+        [
+          449,
+          3970
+        ]
+      ],
+      "tn": 3330,
+      "fp": 529,
+      "fn": 449,
+      "tp": 3970
+    },
+    "RandomForest": {
+      "model": "RandomForest",
+      "cv_accuracy_mean": 0.8658064597860566,
+      "cv_accuracy_std": 0.004698009441262757,
+      "cv_f1_mean": 0.8764806716878741,
+      "cv_f1_std": 0.0044269712585032,
+      "cv_roc_auc_mean": 0.9303631342402667,
+      "cv_roc_auc_std": 0.0030267678061133866,
+      "test_accuracy": 0.8671176612708383,
+      "test_precision": 0.8616256264981478,
+      "test_recall": 0.8947725729803123,
+      "test_f1": 0.877886323268206,
+      "test_roc_auc": 0.9332320838171947,
+      "confusion_matrix": [
+        [
+          3224,
+          635
+        ],
+        [
+          465,
+          3954
+        ]
+      ],
+      "tn": 3224,
+      "fp": 635,
+      "fn": 465,
+      "tp": 3954
+    }
+  },
+  "best_model_name": "LogisticRegression",
+  "importances": {
+    "top_positive": [
+      {
+        "term": "good",
+        "coef": 7.94215
+      },
+      {
+        "term": "excellent",
+        "coef": 7.72799
+      },
+      {
+        "term": "great",
+        "coef": 6.13209
+      },
+      {
+        "term": "comfortable",
+        "coef": 5.53073
+      },
+      {
+        "term": "recommend",
+        "coef": 4.7097
+      },
+      {
+        "term": "friendly",
+        "coef": 4.67304
+      },
+      {
+        "term": "fantastic",
+        "coef": 4.28211
+      },
+      {
+        "term": "not_problem",
+        "coef": 4.03578
+      },
+      {
+        "term": "helpful",
+        "coef": 3.94496
+      },
+      {
+        "term": "nice",
+        "coef": 3.93254
+      },
+      {
+        "term": "pleasant",
+        "coef": 3.82016
+      },
+      {
+        "term": "smooth",
+        "coef": 3.77718
+      },
+      {
+        "term": "impress",
+        "coef": 3.70599
+      },
+      {
+        "term": "bite",
+        "coef": 3.67629
+      },
+      {
+        "term": "attentive",
+        "coef": 3.63329
+      },
+      {
+        "term": "professional",
+        "coef": 3.49009
+      },
+      {
+        "term": "happy",
+        "coef": 3.46288
+      },
+      {
+        "term": "clean",
+        "coef": 3.42135
+      },
+      {
+        "term": "always",
+        "coef": 3.14874
+      },
+      {
+        "term": "enjoy",
+        "coef": 3.14089
+      }
+    ],
+    "top_negative": [
+      {
+        "term": "worst",
+        "coef": -6.34355
+      },
+      {
+        "term": "rude",
+        "coef": -5.90258
+      },
+      {
+        "term": "uncomfortable",
+        "coef": -5.82343
+      },
+      {
+        "term": "poor",
+        "coef": -5.72706
+      },
+      {
+        "term": "not_fly",
+        "coef": -5.27439
+      },
+      {
+        "term": "tell",
+        "coef": -5.05521
+      },
+      {
+        "term": "terrible",
+        "coef": -4.53364
+      },
+      {
+        "term": "not_even",
+        "coef": -4.43439
+      },
+      {
+        "term": "disappoint",
+        "coef": -4.33606
+      },
+      {
+        "term": "awful",
+        "coef": -4.04092
+      },
+      {
+        "term": "cancel",
+        "coef": -3.97079
+      },
+      {
+        "term": "maxjet",
+        "coef": -3.96158
+      },
+      {
+        "term": "not_recommend",
+        "coef": -3.89302
+      },
+      {
+        "term": "dirty",
+        "coef": -3.72407
+      },
+      {
+        "term": "hour",
+        "coef": -3.63088
+      },
+      {
+        "term": "horrible",
+        "coef": -3.44027
+      },
+      {
+        "term": "avoid",
+        "coef": -3.37034
+      },
+      {
+        "term": "not_work",
+        "coef": -3.27257
+      },
+      {
+        "term": "worse",
+        "coef": -3.08081
+      },
+      {
+        "term": "appal",
+        "coef": -3.01397
+      }
+    ]
+  },
+  "train_size": 33110,
+  "test_size": 8278
+}

@@ -1,0 +1,123 @@
+{
+  "aspects": {
+    "seat_comfort": {
+      "seeds": [
+        "seat",
+        "legroom",
+        "leg room",
+        "comfort",
+        "recline",
+        "space",
+        "pitch"
+      ]
+    },
+    "cabin_staff": {
+      "seeds": [
+        "crew",
+        "staff",
+        "attendant",
+        "service",
+        "flight attendant",
+        "hostess",
+        "steward"
+      ]
+    },
+    "food_beverages": {
+      "seeds": [
+        "food",
+        "meal",
+        "snack",
+        "drink",
+        "beverage",
+        "catering",
+        "dinner",
+        "lunch",
+        "breakfast"
+      ]
+    },
+    "inflight_entertainment": {
+      "seeds": [
+        "entertainment",
+        "movie",
+        "screen",
+        "tv",
+        "wifi",
+        "inflight",
+        "monitor",
+        "magazine"
+      ]
+    },
+    "ground_service": {
+      "seeds": [
+        "ground",
+        "check",
+        "boarding",
+        "gate",
+        "counter",
+        "airport",
+        "lounge"
+      ]
+    },
+    "wifi_connectivity": {
+      "seeds": [
+        "wifi",
+        "internet",
+        "connectivity",
+        "connection",
+        "signal"
+      ]
+    },
+    "value_money": {
+      "seeds": [
+        "value",
+        "money",
+        "price",
+        "cheap",
+        "expensive",
+        "fare",
+        "worth",
+        "cost"
+      ]
+    }
+  },
+  "pol_pos": [
+    "amazing",
+    "attentive",
+    "caring",
+    "clean",
+    "comfortable",
+    "excellent",
+    "fantastic",
+    "fine",
+    "friendly",
+    "good",
+    "great",
+    "helpful",
+    "nice",
+    "polite",
+    "prompt",
+    "smooth",
+    "superb",
+    "wonderful"
+  ],
+  "pol_neg": [
+    "awful",
+    "bad",
+    "cancelled",
+    "delayed",
+    "dirty",
+    "horrible",
+    "late",
+    "lost",
+    "noisy",
+    "old",
+    "poor",
+    "rude",
+    "terrible",
+    "unclean",
+    "uncomfortable",
+    "waste",
+    "worst"
+  ],
+  "agreement_note": "predicted sentiment vs Skytrax per-aspect star ratings"
+}

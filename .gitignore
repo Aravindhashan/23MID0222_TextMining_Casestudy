@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temp / build
+*.log
+server.log
+server2.log
+recovered/
+figures/*.png
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Word temp/lock files
+~$*
+~WRL*
+
+# Plan / scratch (local only)
+.opencode/
+nonascii*.txt
+fffd.txt
+info_lines.txt

@@ -1,0 +1,468 @@
+{
+  "n_reviews": 41388,
+  "n_features": 8000,
+  "vocab_size": 8000,
+  "tfidf_shape": [
+    41388,
+    8000
+  ],
+  "tfidf_params": {
+    "min_df": 5,
+    "max_df": 0.95,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 8000,
+    "sublinear_tf": true
+  },
+  "top_terms": {
+    "positive": [
+      {
+        "term": "good",
+        "weight": 0.02413
+      },
+      {
+        "term": "excellent",
+        "weight": 0.01727
+      },
+      {
+        "term": "friendly",
+        "weight": 0.0161
+      },
+      {
+        "term": "comfortable",
+        "weight": 0.01559
+      },
+      {
+        "term": "great",
+        "weight": 0.01434
+      },
+      {
+        "term": "nice",
+        "weight": 0.01097
+      },
+      {
+        "term": "clean",
+        "weight": 0.01082
+      },
+      {
+        "term": "crew",
+        "weight": 0.01016
+      },
+      {
+        "term": "food",
+        "weight": 0.00939
+      },
+      {
+        "term": "cabin",
+        "weight": 0.00841
+      },
+      {
+        "term": "attentive",
+        "weight": 0.00819
+      },
+      {
+        "term": "efficient",
+        "weight": 0.00794
+      },
+      {
+        "term": "helpful",
+        "weight": 0.00786
+      },
+      {
+        "term": "pleasant",
+        "weight": 0.00781
+      },
+      {
+        "term": "new",
+        "weight": 0.00754
+      },
+      {
+        "term": "flight time",
+        "weight": 0.00719
+      },
+      {
+        "term": "recommend",
+        "weight": 0.00714
+      },
+      {
+        "term": "overall",
+        "weight": 0.0069
+      },
+      {
+        "term": "professional",
+        "weight": 0.00685
+      },
+      {
+        "term": "seat comfortable",
+        "weight": 0.00672
+      }
+    ],
+    "negative": [
+      {
+        "term": "hour",
+        "weight": 0.01635
+      },
+      {
+        "term": "tell",
+        "weight": 0.0146
+      },
+      {
+        "term": "delay",
+        "weight": 0.01421
+      },
+      {
+        "term": "not_fly",
+        "weight": 0.00969
+      },
+      {
+        "term": "cancel",
+        "weight": 0.00956
+      },
+      {
+        "term": "get",
+        "weight": 0.00912
+      },
+      {
+        "term": "wait",
+        "weight": 0.00875
+      },
+      {
+        "term": "customer",
+        "weight": 0.00851
+      },
+      {
+        "term": "rude",
+        "weight": 0.00834
+      },
+      {
+        "term": "worst",
+        "weight": 0.00827
+      },
+      {
+        "term": "another",
+        "weight": 0.00813
+      },
+      {
+        "term": "poor",
+        "weight": 0.00802
+      },
+      {
+        "term": "pay",
+        "weight": 0.00796
+      },
+      {
+        "term": "day",
+        "weight": 0.00776
+      },
+      {
+        "term": "pm",
+        "weight": 0.00726
+      },
+      {
+        "term": "plane",
+        "weight": 0.00711
+      },
+      {
+        "term": "ask",
+        "weight": 0.00697
+      },
+      {
+        "term": "not_even",
+        "weight": 0.00669
+      },
+      {
+        "term": "passenger",
+        "weight": 0.00663
+      },
+      {
+        "term": "uncomfortable",
+        "weight": 0.0066
+      }
+    ]
+  },
+  "top_collocations": {
+    "pmi": [
+      {
+        "bigram": "tel aviv",
+        "pmi": 13.8978,
+        "freq": 20
+      },
+      {
+        "bigram": "sao paulo",
+        "pmi": 13.5055,
+        "freq": 20
+      },
+      {
+        "bigram": "cape town",
+        "pmi": 12.7856,
+        "freq": 34
+      },
+      {
+        "bigram": "not_aer not_lingus",
+        "pmi": 12.6652,
+        "freq": 33
+      },
+      {
+        "bigram": "los angeles",
+        "pmi": 12.4124,
+        "freq": 52
+      },
+      {
+        "bigram": "abu dhabi",
+        "pmi": 12.1323,
+        "freq": 59
+      },
+      {
+        "bigram": "ice cream",
+        "pmi": 12.0138,
+        "freq": 28
+      },
+      {
+        "bigram": "british airway",
+        "pmi": 11.9795,
+        "freq": 25
+      },
+      {
+        "bigram": "hong kong",
+        "pmi": 11.953,
+        "freq": 76
+      },
+      {
+        "bigram": "not_lie not_flat",
+        "pmi": 11.7686,
+        "freq": 26
+      },
+      {
+        "bigram": "super elite",
+        "pmi": 11.7097,
+        "freq": 28
+      },
+      {
+        "bigram": "code share",
+        "pmi": 11.5134,
+        "freq": 42
+      },
+      {
+        "bigram": "amenity kit",
+        "pmi": 11.5086,
+        "freq": 27
+      },
+      {
+        "bigram": "san francisco",
+        "pmi": 11.4357,
+        "freq": 49
+      },
+      {
+        "bigram": "aerolineas argentina",
+        "pmi": 11.4076,
+        "freq": 32
+      },
+      {
+        "bigram": "san diego",
+        "pmi": 11.2898,
+        "freq": 31
+      },
+      {
+        "bigram": "high density",
+        "pmi": 10.9633,
+        "freq": 20
+      },
+      {
+        "bigram": "frequent flyer",
+        "pmi": 10.9411,
+        "freq": 36
+      },
+      {
+        "bigram": "orange juice",
+        "pmi": 10.8866,
+        "freq": 28
+      },
+      {
+        "bigram": "star alliance",
+        "pmi": 10.8246,
+        "freq": 71
+      },
+      {
+        "bigram": "red eye",
+        "pmi": 10.7879,
+        "freq": 33
+      },
+      {
+        "bigram": "not_business not_class",
+        "pmi": 10.7506,
+        "freq": 64
+      },
+      {
+        "bigram": "non existent",
+        "pmi": 10.2813,
+        "freq": 73
+      },
+      {
+        "bigram": "mexico city",
+        "pmi": 10.2581,
+        "freq": 93
+      },
+      {
+        "bigram": "pleasantly surprise",
+        "pmi": 10.1956,
+        "freq": 66
+      },
+      {
+        "bigram": "flat bed",
+        "pmi": 10.1887,
+        "freq": 62
+      },
+      {
+        "bigram": "lie flat",
+        "pmi": 10.1799,
+        "freq": 58
+      },
+      {
+        "bigram": "download app",
+        "pmi": 10.1742,
+        "freq": 23
+      },
+      {
+        "bigram": "overhead bin",
+        "pmi": 10.1242,
+        "freq": 34
+      },
+      {
+        "bigram": "passport control",
+        "pmi": 10.0955,
+        "freq": 29
+      }
+    ],
+    "frequent": [
+      {
+        "bigram": "air canada",
+        "freq": 1215
+      },
+      {
+        "bigram": "business class",
+        "freq": 932
+      },
+      {
+        "bigram": "cabin crew",
+        "freq": 622
+      },
+      {
+        "bigram": "flight attendant",
+        "freq": 612
+      },
+      {
+        "bigram": "return flight",
+        "freq": 422
+      },
+      {
+        "bigram": "hour flight",
+        "freq": 417
+      },
+      {
+        "bigram": "flight time",
+        "freq": 398
+      },
+      {
+        "bigram": "leg room",
+        "freq": 371
+      },
+      {
+        "bigram": "fly air",
+        "freq": 331
+      },
+      {
+        "bigram": "aer lingus",
+        "freq": 280
+      },
+      {
+        "bigram": "air france",
+        "freq": 277
+      },
+      {
+        "bigram": "entertainment system",
+        "freq": 267
+      },
+      {
+        "bigram": "inflight entertainment",
+        "freq": 254
+      },
+      {
+        "bigram": "canada rouge",
+        "freq": 253
+      },
+      {
+        "bigram": "flight delay",
+        "freq": 252
+      },
+      {
+        "bigram": "customer service",
+        "freq": 225
+      },
+      {
+        "bigram": "economy class",
+        "freq": 219
+      },
+      {
+        "bigram": "connect flight",
+        "freq": 215
+      },
+      {
+        "bigram": "long haul",
+        "freq": 212
+      },
+      {
+        "bigram": "delay hour",
+        "freq": 210
+      },
+      {
+        "bigram": "air india",
+        "freq": 197
+      },
+      {
+        "bigram": "seat comfortable",
+        "freq": 196
+      },
+      {
+        "bigram": "food good",
+        "freq": 181
+      },
+      {
+        "bigram": "air berlin",
+        "freq": 181
+      },
+      {
+        "bigram": "premium economy",
+        "freq": 175
+      },
+      {
+        "bigram": "class seat",
+        "freq": 169
+      },
+      {
+        "bigram": "crew friendly",
+        "freq": 161
+      },
+      {
+        "bigram": "air china",
+        "freq": 159
+      },
+      {
+        "bigram": "seat front",
+        "freq": 157
+      },
+      {
+        "bigram": "haul flight",
+        "freq": 157
+      }
+    ]
+  },
+  "engineered_correlations_with_overall_rating": {
+    "length_chars": -0.228,
+    "word_count": -0.196,
+    "exclamation_count": -0.092,
+    "caps_ratio": 0.267,
+    "vader_compound": 0.671
+  }
+}
