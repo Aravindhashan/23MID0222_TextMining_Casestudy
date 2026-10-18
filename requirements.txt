@@ -1,36 +1,34 @@
-# Turbulence in Words — airline review text-mining case study
-# Python 3.11
+# Turbulence in Words - airline review text-mining case study
+# Python 3.11 (set Python version to 3.11 in Streamlit Cloud advanced settings)
 
 # Core data & numerics
-pandas==3.0.5
-numpy==2.4.6
-scipy==1.17.1
+pandas>=2.2
+numpy>=2.0
+scipy>=1.13
 
 # Machine learning
-scikit-learn==1.9.0
+scikit-learn>=1.5
+joblib>=1.4
 
 # NLP
-nltk==3.10.3
-spacy==3.8.16
-joblib==1.4.2
+nltk>=3.9
+spacy>=3.8
 # spaCy model (installed via wheel for cloud builds):
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
-# NLTK data (install separately, see README):
-#   stopwords, wordnet, omw-1.4, punkt, punkt_tab, averaged_perceptron_tagger
 
-# Explainability (Phase 3)
-lime==0.2.0.1
+# Explainability
+lime>=0.2.0
 
-# Graphs (Phase 4)
-networkx==3.6.1
+# Graphs
+networkx>=3.3
 
 # Visualisation
-matplotlib==3.11.2
-seaborn==0.13.2
-wordcloud==1.9.6
+matplotlib>=3.9
+seaborn>=0.13
+wordcloud>=1.9
 
-# Data collection (Phase 1)
-requests==2.34.2
+# Data collection
+requests>=2.32
 
 # Dashboard
-streamlit==1.62.0
+streamlit>=1.38
